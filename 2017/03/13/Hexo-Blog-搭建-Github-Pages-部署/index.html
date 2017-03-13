@@ -87,12 +87,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="HomeMate团队博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="A fast, simple &amp;amp; powerful blog frameworkHexo 是一个轻量级、基于 Node.js 的静态博客框架，生成的静态网页可以托管在 Github 或者 HeroKu 上。
+What we need？Github PagesGithub Pages 可以被认为是用户编写的、并且托管在 Github 上的静态网页。GP 生成的网站的默认域名是 usernam">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo Blog 搭建 + Github Pages 部署">
+<meta property="og:url" content="http://yoursite.com/2017/03/13/Hexo-Blog-搭建-Github-Pages-部署/index.html">
 <meta property="og:site_name" content="HomeMate团队博客">
+<meta property="og:description" content="A fast, simple &amp;amp; powerful blog frameworkHexo 是一个轻量级、基于 Node.js 的静态博客框架，生成的静态网页可以托管在 Github 或者 HeroKu 上。
+What we need？Github PagesGithub Pages 可以被认为是用户编写的、并且托管在 Github 上的静态网页。GP 生成的网站的默认域名是 usernam">
+<meta property="og:updated_time" content="2017-03-13T16:26:43.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HomeMate团队博客">
+<meta name="twitter:title" content="Hexo Blog 搭建 + Github Pages 部署">
+<meta name="twitter:description" content="A fast, simple &amp;amp; powerful blog frameworkHexo 是一个轻量级、基于 Node.js 的静态博客框架，生成的静态网页可以托管在 Github 或者 HeroKu 上。
+What we need？Github PagesGithub Pages 可以被认为是用户编写的、并且托管在 Github 上的静态网页。GP 生成的网站的默认域名是 usernam">
 
 
 
@@ -120,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/03/13/Hexo-Blog-搭建-Github-Pages-部署/"/>
 
 
 
 
 
-  <title> HomeMate团队博客 </title>
+  <title> Hexo Blog 搭建 + Github Pages 部署 | HomeMate团队博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -151,9 +158,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -236,9 +241,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -268,10 +273,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/03/13/Hexo-Blog-搭建-Github-Pages-部署/" itemprop="url">
-                  Hexo Blog 搭建 + Github Pages 部署
-                </a>
+                Hexo Blog 搭建 + Github Pages 部署
               
             
           </h1>
@@ -322,9 +324,7 @@
       
 
       
-        
-          
-            <h1 id="A-fast-simple-amp-powerful-blog-framework"><a href="#A-fast-simple-amp-powerful-blog-framework" class="headerlink" title="A fast, simple &amp; powerful blog framework"></a>A fast, simple &amp; powerful blog framework</h1><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> 是一个轻量级、基于 Node.js 的静态博客框架，生成的静态网页可以托管在 Github 或者 HeroKu 上。</p>
+        <h1 id="A-fast-simple-amp-powerful-blog-framework"><a href="#A-fast-simple-amp-powerful-blog-framework" class="headerlink" title="A fast, simple &amp; powerful blog framework"></a>A fast, simple &amp; powerful blog framework</h1><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> 是一个轻量级、基于 Node.js 的静态博客框架，生成的静态网页可以托管在 Github 或者 HeroKu 上。</p>
 <h1 id="What-we-need？"><a href="#What-we-need？" class="headerlink" title="What we need？"></a>What we need？</h1><h3 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h3><p><a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a> 可以被认为是用户编写的、并且托管在 Github 上的静态网页。GP 生成的网站的默认域名是 username.github.io 或者是 username.github.io/project-name，同时，GP也支持<a href="https://help.github.com/articles/about-supported-custom-domains/" target="_blank" rel="external">自定义域名</a>,不过本文暂不介绍，使用的是默认域名。</p>
 <h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h3><p>本博客搭建过程使用的是 Mac 下的 小黑框，Linux 应该也是一样的，windows 就不考虑了-。-</p>
 <h3 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h3><p>Hexo 的文章编写使用的是 <a href="http://www.markdown.cn/" target="_blank" rel="external">Markdown</a>，语法就不讲了，推荐两个编辑器 <a href="http://25.io/mou/" target="_blank" rel="external">Mou</a> 和 <a href="http://zh.mweb.im/" target="_blank" rel="external">MWeb</a>。</p>
@@ -359,16 +359,20 @@
 <p>该字段就是配置主题用的，这里填写我们刚刚 clone 下来的 NexT 主题，必须和文件名相同。<br>然后执行 hexo g 和 hexo d 即可完成修改。</p>
 <h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>本文只是基础的搭建和使用教程，如果想知道更多玩法和配置方法，可以到 <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> 的官网上查阅。</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -377,21 +381,22 @@
       
 
       
-
+        
       
 
       
+
       
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -399,6 +404,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -418,8 +427,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -463,6 +481,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#A-fast-simple-amp-powerful-blog-framework"><span class="nav-number">1.</span> <span class="nav-text">A fast, simple & powerful blog framework</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#What-we-need？"><span class="nav-number">2.</span> <span class="nav-text">What we need？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-Pages"><span class="nav-number">2.0.1.</span> <span class="nav-text">Github Pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mac"><span class="nav-number">2.0.2.</span> <span class="nav-text">Mac</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown"><span class="nav-number">2.0.3.</span> <span class="nav-text">Markdown</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Start"><span class="nav-number">3.</span> <span class="nav-text">Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#step-1-安装-Node"><span class="nav-number">3.0.1.</span> <span class="nav-text">step 1:  安装 Node</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step-2-安装-Hexo-和初始化博客"><span class="nav-number">3.0.2.</span> <span class="nav-text">step 2 : 安装 Hexo 和初始化博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step-3-部署到-Github-Pages"><span class="nav-number">3.0.3.</span> <span class="nav-text">step 3 : 部署到 Github Pages</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#How-to-push-the-articles？"><span class="nav-number">4.</span> <span class="nav-text">How to push the articles？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Other"><span class="nav-number">5.</span> <span class="nav-text">Other</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#怎么换主题"><span class="nav-number">5.0.1.</span> <span class="nav-text">怎么换主题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#End"><span class="nav-number">6.</span> <span class="nav-text">End</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -568,6 +602,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
